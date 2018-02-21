@@ -372,11 +372,6 @@ input::-ms-input-placeholder {
     color: #fff;
     -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
     background-color:rgba(34, 61, 97, 0.64);
-    -webkit-transition:all .3s;
-    -moz-transition:all .3s;
-    transition:all .3s;
-   
-;
 }
 .navbar-brand>img {
     max-width: 80%;
@@ -462,51 +457,19 @@ input::-ms-input-placeholder {
 
 /*footer widget*/
 
-.footer_widget{
-    background: #f8f8f8;
-    color:#223d61;
-}
-.footer_widget .main_widget{
+.main_widget{
     padding: 55px 15px 80px 15px; 
     overflow: hidden;
 }
-.single_widget{
-    margin-bottom:30px;
-}
-.single_widget .single_widget_blog{
-    overflow:hidden;
-    margin-bottom: 25px;
-}
-.single_widget .single_widget_blog .single_widget_img{
-    width:30%;
-    float:left;
-}
-.single_widget .single_widget_blog .single_widget_content{
-    width:65%;
-    float:right;
-    margin-left:5%;
-    margin-top:10px;
-}
-.single_widget .single_widget_blog .single_widget_content p.monseratregular{
-    font-size:0.75rem;
-    margin-bottom:0px;
-}
-.footer_logo{
-    margin-bottom: 20px;
-}
 
-
-.single_widget li.single_latest_news{
-    margin-bottom: 20px;
-}
 .footer_subcribs_area .navbar-form {
     padding: 0;
 }
 .footer_subcribs_area .form-control {
-    font-size: 14px;
+    font-size: 4px;
     border: 0px solid #ccc;
     border-radius: 4px 0px 0px 4px;
-    width: 65%;
+    width: 100%;
     display: inline-block;
     height: 34px;
 }
@@ -515,12 +478,9 @@ input::-ms-input-placeholder {
 }
 .footer_subcribs_area .flowus a i{
     color:darkred;
-    font-size:1rem;
+    font-size:3rem;
     padding: 5px;
-}
-
-.footer_gellary img{
-    width:100%;
+    
 }
 
 /*footer section*/
